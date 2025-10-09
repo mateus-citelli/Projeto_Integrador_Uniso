@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Cadastro de usuário</h1>
+    <img src="images/logo.png" alt="logo gerenciador de microempresas" width="200px">
+
+    <div class="login-container" id="userInfo" style="opacity: 1;">
+        <input id="username" type="text" placeholder="Nome de usuário">
+        <input id="email" type="email" placeholder="Email">
+        <button class="avanceBt">Avançar</button>
+        <p>_________ou_________</p>
+        <a href="login.html">Já possui uma conta? Entre aqui</a>
+    </div>
+
+    <div class="login-container" id="passwordSection" style="display:none; opacity: 0;">
+        <input id="password" type="password" placeholder="Senha">
+        <input id="confirmPassword" type="password" placeholder="Confirme a senha">
+        <button class="avanceBt">avançar</button>
+    </div>
+
+    <div class="login-container" id="securityQuestionsSection" style="display:none; opacity: 0;">
+        <h3>Cadastre duas perguntas para recuperação</h3>
+
+        <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Primeiro nome da mãe</option>
+            <option value="">Qual é sua cidade natal</option>
+            <option value="">Data de Nascimento</option>
+        </select>
+        <input type="text" placeholder="Resposta">
+
+        <select name="" id="">
+            <option value="">Selecione</option>
+            <option value="">Primeiro nome do pai</option>
+            <option value="">Qual é o nome do seu primeiro pet</option>
+            <option value="">Qual é o nome do seu melhor amigo</option>
+
+        </select>
+        <input type="text" placeholder="Resposta">
+        <button class="avanceBt">Finalizar</button>
+    </div>
+
+    <script src="scripts/User.js"></script>
+    <script src="scripts/cadastro.js"></script>
+</body>
+</html>
