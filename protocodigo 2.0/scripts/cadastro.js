@@ -36,4 +36,4 @@ avanceBt[1].addEventListener('click', () => {
         }, 100);
     }, 300);
 
-});  
+});
